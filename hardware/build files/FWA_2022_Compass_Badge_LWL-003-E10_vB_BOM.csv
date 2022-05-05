@@ -1,0 +1,31 @@
+BOM/Design Name:,FWA 2022 Compass Badge,,,,,,,,,
+Drawing Number:,LWL-003-E13,,,,,,,,,
+Revision:,B,,,,,,,,,
+Company:,Lambda Wolf Labs (@LorneChrones),,,,,,,,,
+Date:,2/13/2022 18:50,,,,,,,,,
+Tool:,Eeschema (5.1.2)-2,,,,,,,,,
+Populated Component Count:,53,,,,,,,,,
+Number of DNP Components:,7,,,,,,,,,
+Line Item,Reference Designator,Qty,Value,Footprint,MPN,Manufacturer,Description,Vendor,Type,Notes
+1,BAT1,1,S8421-45R,LWL-library:BattteryHolder_Harwin_S8421R,S8421-45R,Harwin Inc.,BATTERY HOLDER COIN 20MM SMD,,SMD,
+2,"C1, C3, C7, C10, C9, C11",6,CL10B104KB8NNNL,Capacitor_SMD:C_0603_1608Metric,CL10B104KB8NNNL,Samsung Electro-Mechanics,CAP CER 0.1UF 50V X7R 0603,,SMD,
+3,"C4, C5",2,CL21A226MQQNNNE,Capacitor_SMD:C_0805_2012Metric,CL21A226MQQNNNE,Samsung Electro-Mechanics,CAP CER 22UF 6.3V X5R 0805,,SMD,
+4,"C8, C6",2,CL21A106MQFNNNE,Capacitor_SMD:C_0805_2012Metric,CL21A106MQFNNNE,Samsung Electro-Mechanics,CAP CER 10UF 6.3V X5R 0805,,SMD,
+5,"C13, C14",2,CL32A107MPVNNNE,Capacitor_SMD:C_1210_3225Metric,CL32A107MPVNNNE,Samsung Electro-Mechanics,CAP CER 100UF 10V X5R 1210,,SMD,
+6,D3,1,IN-S63BT5UW,digikey-footprints:LED_0603,IN-S63BT5UW,Inolux,LED WHITE CLEAR 0603 SMD,,SMD,
+7,"D11, D10, D8, D9, D4, D5, D1, D2, D6, D7",10,VLMTG1400-GS08,digikey-footprints:LED_0603,VLMTG1400-GS08,Vishay Semiconductor Opto Division,LED GREEN 0603 SMD,,SMD,
+8,D12,1,19-337C_RSBHGHC-A88_4T,LWL-library:6-0606_1.6x1.6mm_19-337C_Everlight,19-337C/RSBHGHC-A88/4T,Everlight Electronics Co Ltd,TRI COLOR PCB TOP VIEW SMD LED R,,SMD
+9,"Q1, Q2",2,PT19-21C_L41_TR8,LWL-library:PHOTOTRAN_0603,PT19-21C/L41/TR8,Everlight Electronics Co Ltd,SENSOR PHOTO 940NM TOP VIEW 0603,,SMD
+10,"Q4, Q3",2,MMBT2222ALT1G,digikey-footprints:SOT-23-3,MMBT2222ALT1G,ON Semiconductor,TRANS NPN 40V 0.6A SOT23,,SMD
+11,"Q6, Q5",2,BSS138-7-F,digikey-footprints:SOT-23-3,BSS138-7-F,Diodes Incorporated,MOSFET N-CH 50V 200MA SOT23-3,,SMD
+12,Q7,1,NXV75UPR,digikey-footprints:SOT-23-3,NXV75UPR,Nexperia USA Inc.,"P-Channel 20 V 1.8A (Ta) 340mW (Ta), 2.1W (Tc) Surface Mount TO-236AB",,SMD
+13,"R2, R1",2,RK73H1JTTD2004F,Resistor_SMD:R_0603_1608Metric,RK73H1JTTD2004F,"KOA Speer Electronics, Inc.",RES 2M OHM 1% 1/10W 0603,,SMD
+14,"R3, R4, R5, R6, R7, R8",6,CR0603-FX-82R0ELF,Resistor_SMD:R_0603_1608Metric,CR0603-FX-82R0ELF,Bourns,RES SMD 82 OHM 1% 1/10W 0603,,SMD
+15,"R9, R10, R13",3,CRGCQ0603F27K,Resistor_SMD:R_0603_1608Metric,CRGCQ0603F27K,TE Connectivity Passive Product,CRGCQ 0603 27K 1%,,SMD
+16,R11,1,RMCF0603FT100K,Resistor_SMD:R_0603_1608Metric,RMCF0603FT100K,Stackpole,RES 100K OHM 1% 1/10W 0603,,SMD
+17,"R12, R14",2,RC0603FR-074K7L,Resistor_SMD:R_0603_1608Metric,RC0603FR-074K7L,Yageo,RES SMD 4.7K OHM 1% 1/10W 0603,,SMD
+18,"R15, R16, R17",3,RMCF0603FT7K50,Resistor_SMD:R_0603_1608Metric,RMCF0603FT7K50,Stackpole Electronics Inc,RES 7.5K OHM 1% 1/10W 0603,,SMD
+19,S1,1,PTS645SM43-2_LFS,LWL-library:Switch_Tactile_THT_6x6mm_PTS645S,PTS645SM43-2 LFS,C&K,SWITCH TACTILE SPST-NO 0.05A 12V,,TH
+20,U1,1,ST25DV04K-IER6S3,digikey-footprints:SOIC-8_W3.9mm,ST25DV04K-IER6S3,STMicroelectronics,IC RFID TRANSP 13.56MHZ 8SO,,SMD
+21,U2,1,LIS3MDLTR,digikey-footprints:VFLGA-12_2x2mm_6milFriendly,LIS3MDLTR,STMicroelectronics,SENSOR MR I2C/SPI 12LGA,,SMD
+22,U3,1,ATtiny814-SSNR,Package_SO:SOIC-14_3.9x8.7mm_P1.27mm,ATtiny814-SSNR,Microchip Technology,"20MHz, 8kB Flash, 512B SRAM, 128B EEPROM, SOIC-14",,SMD

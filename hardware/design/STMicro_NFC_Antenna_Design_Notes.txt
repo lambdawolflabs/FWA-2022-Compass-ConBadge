@@ -1,0 +1,53 @@
+ST25DV04 NFC Antenna Design (See AN2866)
+
+fNFC_min = 13.553MHz
+fNFC_typ = 13.56MHz
+fNFC_max = 13.567MHz
+
+Operating field according to ISO (across -40 - 85C):
+min: 150 mA/m
+max: 5000 mA/m
+
+ST25DV04 SOIC-8 Internal Tuning Capacitance:
+min = 26.5pF
+typ = 28.5pF
+max = 30.5pF
+
+Ideal Antenna Inductance (assuming no other parasitics & typ NFC frequency):
+min = 5.984uH
+typ = 4.833uH
+max = 4.516uH
+
+Ideal Antenna Geometry (assuming no other parasitics & 4.833uH Antenna Inductance):
+Circular Spiral Geometry:
+Turns: 25
+Conductor Spacing: 0.18mm
+Conductor Width: 0.18mm
+Outer Diameter: 19.5mm
+	Inner Diameter: 1.86mm
+	Fill Factor: 0.8258um
+	Resultant Inductance: 4.825uH 
+	Calculated Trace Length: 2383mm
+	Calculated Trace Resistance (1oz cu, 35um): 6.43 Ohms
+
+Octagonal Spiral Geometry (opt 1):
+Turns: 24
+Conductor Spacing: 0.18mm
+Conductor Width: 0.18mm
+Outer Diameter: 19.5mm
+	Inner Diameter: 2.58mm
+	Fill Factor: 0.7663um
+	Resultant Inductance: 4.830uH
+	Calculated Trace Length: 1119mm
+	Calculated Trace Resistance (1oz cu, 35um): 3.02 Ohms
+
+Octagonal Spiral Geometry (opt 2):
+Turns: 15
+Conductor Spacing: 0.18mm
+Conductor Width: 0.18mm
+Outer Diameter: 21.5mm
+	Inner Diameter: 11.06mm
+	Fill Factor: 0.3206um
+	Resultant Inductance: 4.841uH
+	Calculated Trace Length: 864mm
+	Calculated Trace Resistance (1oz cu, 35um): 2.33 Ohms

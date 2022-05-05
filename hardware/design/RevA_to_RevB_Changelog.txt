@@ -1,0 +1,26 @@
+2020/2021 Rev A to 2022 RevB
+
+1. Change C4 & C5 to 22uF - DONE
+
+2. DNP R1 and R2 (maybe) or replace with 1M to 10M	- DONE
+
+3. Change R16 & R17 to 7.5kΩ	- DONE
+
+4. Note that the battery is pos side up in silkscreen - DONE
+
+5. Add hot glue spots to battery holder, extend battery holder negative pad out from under the holder. - SKIP, SUPERGLUE
+
+6. Add a P-Fet Reverse Battery Protection	- DONE NXV75UPR
+
+7. Add FWA art to the boack of the badge - DONE
+
+8. Add more PCB art to the front of the badge ( https://youtu.be/Sbkvza8cKQE?t=1911 ) perhaps readjust mask to get more crystal blue, adust the silkscreen top to a bare  gold / ENIG instead for more of an atlantis TLE crystal necklace? ( https://i.pinimg.com/originals/f5/70/2b/f5702b80a7aa236c95a6224403604152.jpg ) - DONE
+
+9. Widen the top hole into a ellipsoid slot instead for a wider lanyard clamps - DONE
+
+10. Delete C2 to make room for the P-Fet reverse bat protection - DONE
+
+11. Bump up "+BATT" silkscreen on J4 to be +2.5V to +3.5V - DONE
+
+
+12. Add fiducials on the top side of the board IMPORTANT - SKIP USE PANEL RAILS FOR FIDUCIALS

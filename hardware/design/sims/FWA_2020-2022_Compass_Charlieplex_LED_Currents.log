@@ -1,0 +1,29 @@
+Circuit: * C:\Users\Lorne\Desktop\Personal Projects\Currently Active\FWA 2020 - Compass Badge\Electrical\Simulations\FWA_2020_Compass_Charlieplex_LED_Currents.asc
+
+Direct Newton iteration for .op point succeeded.
+Semiconductor Device Operating Points:
+                        --- Diodes ---
+Name:  d§in-s63bt5uw d§vlmtg1400 d§19-337_blu d§19-337_grn d§19-337_red
+Model:  in-s63bt5uw   vlmtg1400   19-337_blu   19-337_grn   19-337_red
+Id:       3.29e-03     6.27e-03    6.76e-03     5.41e-03     6.50e-03
+Vd:       2.16e+00     1.41e+00    1.29e+00     1.62e+00     1.35e+00
+Req:      3.61e+01     2.67e+01    3.45e+01     3.60e+01     1.19e+01
+CAP:      0.00e+00     0.00e+00    0.00e+00     0.00e+00     0.00e+00
+
+
+
+Date: Sun Nov 22 16:35:38 2020
+Total elapsed time: 0.070 seconds.
+
+tnom = 27
+temp = 27
+method = trap
+totiter = 19
+traniter = 0
+tranpoints = 0
+accept = 0
+rejected = 0
+matrix size = 31
+fillins = 0
+solver = Normal
+
