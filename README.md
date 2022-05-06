@@ -5,6 +5,7 @@ FWA 2022 Compass ConBadge from the Intro To DIY Electronics &amp; Electrical Eng
 Purpose: Semi-basic, semi-intelligent, semi-interactive conbadge with LED compass function, two BJT transistor multivibrator flasher (can be disabled by MCU), MCU runs the show and built in NFC tag.
 
 Specs:
+	
 	>Operating/Storage Ambient Temperature Range: 0°C to 40°C.
 	
 	>Operating/Storage Ambient Humidity Range: 10% to 95% RH.
@@ -23,6 +24,7 @@ Specs:
 
 
 Goals & Requirements:
+	
 	-EU ROHS3 COMPLIANT
 	
 	-NO EXPLICIT ESD PROTECTION.
