@@ -2,6 +2,8 @@
 FWA 2022 Compass ConBadge from the Intro To DIY Electronics &amp; Electrical Engineering Panel!
 
 
+Slides: https://docs.google.com/presentation/d/1c4_kWb6G9Z7fMHBQ-3chpQz8QXO9tOMy/edit?usp=sharing&ouid=112541527262173468485&rtpof=true&sd=true
+
 Purpose: Semi-basic, semi-intelligent, semi-interactive conbadge with LED compass function, two BJT transistor multivibrator flasher (can be disabled by MCU), MCU runs the show and built in NFC tag.
 
 Specs:
